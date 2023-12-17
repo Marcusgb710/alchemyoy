@@ -1,0 +1,21 @@
+from utils.gameitems import GameItems
+from utils.item import Item
+items = GameItems()
+items.additem(Item("Rock", True))
+items.additem(Item("Air", True))
+items.additem(Item("Water", True))
+items.additem(Item("Fire", True))
+items.additem(Item("Plains"))
+items.additem(Item("Country"))
+items.additem(Item("Continent"))
+items.additem(Item("Earth"))
+items.additem(Item("Lake"))
+items.additem(Item("Ocean"))
+#items.additem(Item("Glass"))
+items.additem(Item("Mist"))
+items.additem(Item("Steam"))
+items.additem(Item("Clay"))
+items.additem(Item("Mud"))
+items.additem(Item("Lava"))
+items.additem(Item("Lake"))
+

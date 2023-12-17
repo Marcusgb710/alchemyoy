@@ -1,0 +1,110 @@
+{
+   "items":{
+        "rock":{
+            "png":"rock.png",
+            "recepies":[
+                {"name": "Air", "result": "Sand"},
+                {"name": "Fire", "result": "Lava"},
+                {"name": "rock", "result": "plains"},
+                {"name": "plains", "result": "country"},
+                {"name": "country", "result": "continent"},
+                {"name": "continent", "result": "earth"}
+            ]
+        },
+        "air":{
+            "png":"air.png",
+            "recepies":[
+                {"name": "Rock", "result": "Sand"},
+                {"name": "water", "result": "mist"}
+            ]
+        },
+        "fire":{
+            "png":"fire.png",
+            "recepies":[
+                {"name": "Rock", "result": "Lava"},
+                {"name": "Mud", "result": "Clay"}
+            ]
+        },
+        "water":{
+            "png":"water.png",
+            "recepies":[
+                {"name": "Fire", "result": "Steam"}
+            ]
+        },
+        "mud":{
+            "png":"mud.png",
+            "recepies":[
+                
+            ]
+        },
+        "lava":{
+            "png":"lava.png",
+            "recepies":[
+                
+            ]
+        },
+        "steam":{
+            "png":"steam.png",
+            "recepies":[
+                
+            ]
+        },
+        "sand":{
+            "png":"air.png",
+            "recepies":[
+                {"name": "fire", "result": "glass"}
+            ]
+        },
+        "mist":{
+            "png":"steam.png",
+            "recepies":[
+
+            ]
+        },
+        "clay":{
+            "png":"clay.png",
+            "recepies":[
+
+            ]
+        },
+        "lake":{
+            "png":"lake.png",
+            "recepies":[
+                {"name": "lake", "result": "ocean"},
+                {"name": "water", "result": "ocean"}
+            ]
+        },
+        "ocean":{
+            "png":"ocean.png",
+            "recepies":[
+
+            ]
+        },
+        "plains":{
+            "png":"plains.png",
+            "recepies":[
+
+            ]
+        },
+        "country":{
+            "png":"country.png",
+            "recepies":[
+
+            ]
+        },
+        "continent":{
+            "png":"continent.png",
+            "recepies":[
+
+            ]
+        },
+        "earth":{
+            "png":"earth.png",
+            "recepies":[
+
+            ]
+        }
+
+        
+   }
+}
